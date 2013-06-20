@@ -1,0 +1,24 @@
+XangaScrape
+
+So Xanga is shutting down(?) so here's a quick and ugly program I wrote to
+download your site. Yes, I know they're providing downloads for an archived
+version of your site, but they're limited and ugly. You can also download other
+people's sites too (as long as they are not private). This program should
+download all the pages as you would normally see them, as well as comments
+pages. I used java because the HtmlUnit library is pretty easy to use for these
+kinds of things.
+
+What you need: 
+java (you probably have it) 
+optional: bash/sed. If you're on Mac OS X/Linux you probably have it. If you
+have Windows you probably can get it working with some work.  Just google for
+bash and sed for windows. Bash/sed is used for some funny pattern matching to
+fix some of the links in the downloaded html files because I figured it's
+easier to write it that way.
+
+Run the jar file with: java -jar XangaScrape.jar in the terminal/command prompt
+or double click on the .bat (Windows) or .sh (Mac) files.
+
+Downloaded files will be found in the "posts" directory.
+
+No license, do whatever you want with it.
